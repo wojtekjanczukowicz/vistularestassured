@@ -44,7 +44,7 @@ public class InformationControllerTest extends RestAssuredTest {
 
     @Test
     public void shouldDelete() {
-        given().delete("/information/6")
+        given().delete("/information/3")
                 .then()
                 .log().all();
     }
